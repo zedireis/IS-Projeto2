@@ -1,0 +1,6 @@
+/workspace/ejbs/src/main/java/beans/IBusiness.java
+/workspace/ejbs/src/main/java/beans/StartupBean.java
+/workspace/ejbs/src/main/java/exceptions/InvalidTripId.java
+/workspace/ejbs/src/main/java/beans/Business.java
+/workspace/ejbs/src/main/java/exceptions/NotEnoughMoneyException.java
+/workspace/ejbs/src/main/java/exceptions/TripFullException.java

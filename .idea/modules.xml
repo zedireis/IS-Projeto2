@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IS_Projeto2.iml" filepath="$PROJECT_DIR$/.idea/IS_Projeto2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeeapp/ear/ear.iml" filepath="$PROJECT_DIR$/jeeapp/ear/ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeeapp/ejbs/ejbs.iml" filepath="$PROJECT_DIR$/jeeapp/ejbs/ejbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeeapp/jeeapp.iml" filepath="$PROJECT_DIR$/jeeapp/jeeapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeeapp/jpa/jpa.iml" filepath="$PROJECT_DIR$/jeeapp/jpa/jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeeapp/web/web.iml" filepath="$PROJECT_DIR$/jeeapp/web/web.iml" />
+    </modules>
+  </component>
+</project>

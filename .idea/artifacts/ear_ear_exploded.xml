@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="ear:ear exploded">
+    <output-path>$PROJECT_DIR$/jeeapp/ear/target/ear</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jeeapp/ear/target/ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="archive" name="jpa.jar">
+          <element id="module-output" name="jpa" />
+        </element>
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar" output-file-name="slf4j-api.jar" />
+      </element>
+      <element id="archive" name="ejbs.jar">
+        <element id="artifact" artifact-name="ejbs:ejb exploded" />
+      </element>
+      <element id="archive" name="web.war">
+        <element id="artifact" artifact-name="web:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
